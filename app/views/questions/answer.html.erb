@@ -1,0 +1,19 @@
+<div class="mx-3 my-2 d-fex flex-column">
+
+<h1>Stupid Coaching</h1>
+<blockquote class="my-4">
+<div class="my-2 question py-4 px-5">
+  <%= @question.capitalize %>
+  <p class="fst-italic">–You</p>
+</div>
+</blockquote>
+<blockquote class ="answer my-4">
+  <div class="my-2 py-4 px-5">
+    <%= @answer %>
+    <p class="fst-italic">–Coach's answer</p>
+  </div>
+</blockquote>
+<div class="my-2 py-4 mx-3 px-5">
+  <%= link_to "Another question?", ask_path %>
+</div>
+</div>

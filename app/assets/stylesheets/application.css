@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .answer {
+  background-color: rgb(244, 244, 198);
+ }
+
+ blockquote {
+  border-left: 6px solid rgb(180, 177, 177);
+ }
